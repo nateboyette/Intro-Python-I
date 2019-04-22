@@ -27,3 +27,27 @@ print(waypoint)
 
 # Print it--also make this print more nicely
 print(geocache)
+
+
+
+
+
+
+
+# class Animal:
+#     # define attributes, assign initial values
+#     def __init__(self, sound, leg_count=4):
+#         self.leg_count = leg_count
+#         self.sound = sound
+
+#     # define class function
+#     def set_leg_count(self, leg_count):
+#         self.leg_count = leg_count
+
+#     def make_sound(self):
+#         print(self.sound)
+
+
+# Lue = Animal("bark", 4)
+
+# Lue.make_sound()
