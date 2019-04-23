@@ -24,7 +24,7 @@ print('Platform Details', os.uname())
 
 # Print out the version of Python you're using:
 # YOUR CODE HERE
-print(sys.version)
+
 print('Current Python Version', platform.python_version())
 # See the docs for the OS module: https://docs.python.org/3.7/library/os.html
 
