@@ -40,6 +40,6 @@ def isEven(num):
         return num
     
 # What do you need between the square brackets to make it work?
-y = [isEven(int(y)) for y in x]
+y = [isEven(float(y)) for y in x]
 
 print(y)
