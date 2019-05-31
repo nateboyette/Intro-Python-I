@@ -22,3 +22,20 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+from datetime import date
+
+# userInput = input("Input a date: ")
+month = calendar.TextCalendar(6)
+
+if len(sys.argv) == 1:
+    today = datetime.now()
+    month.prmonth(today.year, today.month)
+elif len(sys.argv) == 2:
+    month.prmonth(2019, int(sys.argv[1]))
+elif len(sys.argv) == 3:
+    month.prmonth(float(sys.argv[2]), float(sys.argv[3]))
+else:
+    print("Please input the month first, then the year.")
+
+
+# print(sys.argv[1:])
